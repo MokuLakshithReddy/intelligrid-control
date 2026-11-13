@@ -1,554 +1,75 @@
-# IntelliGrid Control
-
-Build a modern, production-quality SaaS web application called "IntelliGrid AI".
-
-Theme:
-
-Dark futuristic UI inspired by Tesla, Apple, Microsoft and Palantir.
-
-Primary colors:
-
-Blue
-
-Cyan
-
-Green
-
-Style:
-
-Glassmorphism
-
-Minimal
-
-Premium
-
-Modern animations
-
-Professional dashboards
-
-The application should feel like software used by Tata Steel's Energy Control Center.
-
-------------------------------------------------------------
-
-PROJECT
-
-IntelliGrid AI
-
-Tagline
-
-Predict.
-
-Optimize.
-
-Save.
-
-Problem Statement
-
-Industries consume electricity from multiple energy sources including Solar, Wind, Grid Power, Captive Power Plants, Battery Storage and Diesel Generators.
-
-Currently operators manually monitor these energy sources.
-
-Build an AI-powered Energy Copilot that continuously predicts demand, optimizes energy usage, reduces electricity costs and carbon emissions while ensuring uninterrupted power supply.
-
-------------------------------------------------------------
-
-TARGET USER
-
-Energy Manager
-
-Plant Manager
-
-Operations Head
-
-Sustainability Officer
-
-CEO Dashboard
-
-------------------------------------------------------------
-
-APPLICATION PAGES
-
-1. Login
-
-2. Dashboard
-
-3. Live Energy Flow
-
-4. AI Copilot
-
-5. Digital Twin Simulator
-
-6. Forecasts
-
-7. Reports
-
-8. Settings
-
-------------------------------------------------------------
-
-LOGIN PAGE
-
-Modern login screen
-
-Company logo
-
-Username
-
-Password
-
-Remember Me
-
-Forgot Password
-
-Dark animated background
-
-------------------------------------------------------------
-
-DASHBOARD
-
-Show KPI Cards
-
-Current Power Demand
-
-Current Electricity Cost
-
-Today's Savings
-
-Today's CO₂ Emission
-
-Renewable Percentage
-
-Battery Health
-
-Grid Status
-
-Diesel Status
-
-System Health
-
-Show beautiful cards.
-
-------------------------------------------------------------
-
-LIVE ENERGY FLOW
-
-Create an animated energy flow.
-
-Solar
-
-↓
-
-Wind
-
-↓
-
-Battery
-
-↓
-
-Grid
-
-↓
-
-Captive Plant
-
-↓
-
-Diesel
-
-↓
-
-Factory
-
-Every source should display
-
-Current MW
-
-Status
-
-Efficiency
-
-CO₂
-
-Cost
-
-Animated energy lines.
-
-------------------------------------------------------------
-
-AI ENERGY COPILOT
-
-Create a ChatGPT-like interface.
-
-The AI should answer questions like
-
-Why did electricity cost increase today?
-
-How can we reduce today's bill?
-
-Why is the battery charging now?
-
-What happens if the grid fails?
-
-How much carbon did we save?
-
-Provide intelligent-looking responses.
-
-------------------------------------------------------------
-
-AI RECOMMENDATION PANEL
-
-Display recommendation cards.
-
-Example
-
-Charge battery before 2 PM.
-
-Avoid Grid between 6 PM and 9 PM.
-
-Wind generation expected after sunset.
-
-Rain expected in 45 minutes.
-
-Battery reserve recommended at 40%.
-
-Each recommendation should include
-
-Reason
-
-Expected Savings
-
-Carbon Reduction
-
-Confidence Score
-
-------------------------------------------------------------
-
-DEMAND FORECAST
-
-Create line charts.
-
-Predict
-
-15 minutes
-
-1 hour
-
-6 hours
-
-24 hours
-
-Show increasing and decreasing demand.
-
-------------------------------------------------------------
-
-RENEWABLE FORECAST
-
-Predict
-
-Solar
-
-Wind
-
-Cloud Cover
-
-Weather
-
-Display charts.
-
-------------------------------------------------------------
-
-DIGITAL TWIN
-
-Allow users to simulate.
-
-Increase Solar Capacity
-
-Increase Battery Size
-
-Grid Failure
-
-Fuel Price Increase
-
-Production Increase
-
-Display
-
-Projected Savings
-
-ROI
-
-Carbon Reduction
-
-Power Availability
-
-------------------------------------------------------------
-
-AI DECISION SIMULATOR
-
-Scenario
-
-Demand
-
-500 MW
-
-Solar
-
-180 MW
-
-Wind
-
-60 MW
-
-Battery
-
-80%
-
-Grid
-
-Available
-
-Captive
-
-Available
-
-Generate recommendation
-
-Use Solar
-
-Use Wind
-
-Charge Battery
-
-Avoid Diesel
-
-Display
-
-Money Saved
-
-CO₂ Saved
-
-Reliability Score
-
-------------------------------------------------------------
-
-REAL-TIME ALERTS
-
-Low Battery
-
-Grid Failure
-
-Battery Overheating
-
-Solar Fault
-
-Wind Turbine Offline
-
-Generator Maintenance Due
-
-Show notification center.
-
-------------------------------------------------------------
-
-REPORTS
-
-Daily Report
-
-Weekly Report
-
-Monthly Report
-
-Energy Usage
-
-Source-wise Consumption
-
-Carbon Emissions
-
-Electricity Cost
-
-Savings
-
-Renewable Usage
-
-Export PDF button.
-
-------------------------------------------------------------
-
-SETTINGS
-
-Company Information
-
-Energy Sources
-
-Tariff Configuration
-
-AI Settings
-
-Notification Preferences
-
-Dark Mode
-
-------------------------------------------------------------
-
-VISUALIZATIONS
-
-Energy Pie Chart
-
-Power Line Chart
-
-Battery Gauge
-
-Carbon Meter
-
-Cost Trend
-
-Renewable Percentage Gauge
-
-Source Contribution Chart
-
-------------------------------------------------------------
-
-SIDEBAR
-
-Dashboard
-
-Energy Flow
-
-Forecasts
-
-AI Copilot
-
-Digital Twin
-
-Reports
-
-Settings
-
-------------------------------------------------------------
-
-TOP NAVIGATION
-
-Search
-
-Notifications
-
-Profile
-
-Current Time
-
-Plant Status
-
-------------------------------------------------------------
-
-DESIGN
-
-Use premium cards.
-
-Rounded corners.
-
-Soft shadows.
-
-Animated transitions.
-
-Glassmorphism.
-
-Professional spacing.
-
-Responsive design.
-
-------------------------------------------------------------
-
-TECH STACK
-
-React
-
-TypeScript
-
-Tailwind CSS
-
-shadcn/ui
-
-Recharts
-
-Framer Motion
-
-React Router
-
-Lucide Icons
-
-------------------------------------------------------------
-
-SIMULATED DATA
-
-Generate realistic industrial values.
-
-Demand
-
-300–700 MW
-
-Solar
-
-0–250 MW
-
-Wind
-
-20–150 MW
-
-Battery
-
-10–100%
-
-Grid Price
-
-₹4–₹12 per kWh
-
-CO₂
-
-tons/hour
-
-Savings
-
-₹
-
-Update values every few seconds.
-
-------------------------------------------------------------
-
-BONUS
-
-Add an animated AI brain visualization.
-
-Animate energy moving through the network.
-
-Smooth dashboard transitions.
-
-Beautiful loading screen.
-
-Professional empty states.
-
-------------------------------------------------------------
-
-The application should feel like enterprise software built for Tata Steel's energy control room.
-
-Every page should be fully functional using simulated real-time data.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/3ca9a2f6-e4f9-40e4-81ac-786a72131a30).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+# IntelliGrid AI — Energy Operations Dashboard Prototype
+
+A React and TypeScript dashboard prototype for exploring an industrial energy-management workflow. It brings energy-source status, demand and cost indicators, forecasts, scenario controls, carbon views, and an assistant-style interface into one navigable UI.
+
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=111)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![TanStack Start](https://img.shields.io/badge/Framework-TanStack%20Start-FF4154)](https://tanstack.com/start)
+[![Stars](https://img.shields.io/github/stars/MokuLakshithReddy/intelligrid-control?style=flat-square)](https://github.com/MokuLakshithReddy/intelligrid-control/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/MokuLakshithReddy/intelligrid-control?style=flat-square)](https://github.com/MokuLakshithReddy/intelligrid-control/commits/main)
+
+## What is included
+
+The route structure exposes dashboard views for:
+
+- Energy overview and source mix
+- Live-style energy flow
+- Demand and generation forecasts
+- Digital-twin and scenario pages
+- Carbon and executive views
+- Copilot-style explanations and recommendations
+- Reports and settings
+
+The energy snapshot model currently generates **deterministic synthetic/demo telemetry** in the browser and refreshes it on a timer. Values such as demand, source output, renewable share, savings, and system health are illustrative UI data—not readings from a connected industrial plant, production SCADA system, or verified utility meter. The assistant and recommendation surfaces should also be treated as prototype UI unless separately connected to a validated model and real data source.
+
+## Dashboard workflow
+
+~~~mermaid
+flowchart TD
+    A["Open energy dashboard"] --> B["Demo telemetry generator"]
+    B --> C["Energy-source snapshot"]
+    C --> D["Dashboard and source mix"]
+    C --> E["Energy-flow view"]
+    C --> F["Forecast and scenario views"]
+    D --> G["Copilot / recommendation UI"]
+    E --> G
+    F --> G
+    G --> H["Reports and decision context"]
+~~~
+
+## Tech stack
+
+| Layer | Technology |
+|---|---|
+| UI | React 19, TypeScript |
+| App framework | TanStack Start / Vite |
+| Styling | Tailwind CSS 4 |
+| Charts and visualizations | Recharts |
+| UI composition | Radix UI primitives and Lucide icons |
+| Motion | Framer Motion |
+
+## Run locally
+
+Requirements: Node.js version supported by the installed Vite/TanStack toolchain and npm.
+
+~~~bash
+npm install
 npm run dev
-```
+~~~
+
+Create a production build with:
+
+~~~bash
+npm run build
+~~~
+
+## Evidence and current limitations
+
+- The repository includes the dashboard and route modules listed above.
+- The checked-in energy snapshot generator is synthetic; it is useful for UI demonstration, not operational monitoring.
+- No independently validated forecasting accuracy, optimization benchmark, SCADA integration test, or measured cost/carbon savings result is published in this repository.
+- No automated test script is currently defined in package.json.
+
+## Why it matters
+
+Industrial energy systems need a shared view of supply, demand, cost, storage, and emissions. This prototype explores how those concepts can be presented together so an operator can inspect the energy picture before any production integrations are attempted.
