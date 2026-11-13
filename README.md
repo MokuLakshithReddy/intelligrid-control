@@ -2,12 +2,13 @@
 
 IntelliGrid Control is a TanStack Start / React interface prototype for exploring an industrial energy operations workspace. It includes a simulated plant dashboard, animated energy-flow view, scripted energy copilot, scenario controls, and executive and carbon reporting screens.
 
-![GitHub stars](https://img.shields.io/github/stars/MokuLakshithReddy/intelligrid-control?style=flat-square&label=stars)
-![GitHub forks](https://img.shields.io/github/forks/MokuLakshithReddy/intelligrid-control?style=flat-square&label=forks)
-![Open issues](https://img.shields.io/github/issues/MokuLakshithReddy/intelligrid-control?style=flat-square&label=open%20issues)
-![Last commit](https://img.shields.io/github/last-commit/MokuLakshithReddy/intelligrid-control?style=flat-square)
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)
+[![Stars](https://img.shields.io/github/stars/MokuLakshithReddy/intelligrid-control?style=flat-square)](https://github.com/MokuLakshithReddy/intelligrid-control/stargazers)
+[![Forks](https://img.shields.io/github/forks/MokuLakshithReddy/intelligrid-control?style=flat-square)](https://github.com/MokuLakshithReddy/intelligrid-control/forks)
+[![Open Issues](https://img.shields.io/github/issues/MokuLakshithReddy/intelligrid-control?style=flat-square)](https://github.com/MokuLakshithReddy/intelligrid-control/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/MokuLakshithReddy/intelligrid-control?style=flat-square)](https://github.com/MokuLakshithReddy/intelligrid-control/commits/main)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![TanStack Start](https://img.shields.io/badge/Framework-TanStack%20Start-FF4154)](https://tanstack.com/start)
 
 ## Why it matters
 
@@ -69,7 +70,14 @@ Do not use this prototype for plant operations, energy procurement, emissions re
 
 ## Technology
 
-TanStack Start · TanStack Router · React 19 · TypeScript · Vite · Tailwind CSS · Recharts · Framer Motion · Lucide
+| Layer | Technology |
+|---|---|
+| UI | React 19, TypeScript |
+| App framework | TanStack Start / Vite |
+| Styling | Tailwind CSS 4 |
+| Charts and visualizations | Recharts |
+| UI composition | Radix UI primitives and Lucide icons |
+| Motion | Framer Motion |
 
 ## Run locally
 
@@ -85,8 +93,6 @@ npm run build
 npm run lint
 npm run preview
 ```
-
-The current `package.json` does not define an automated test or benchmark command.
 
 ## Next integration boundary
 
