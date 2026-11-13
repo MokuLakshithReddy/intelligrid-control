@@ -1,5 +1,8 @@
 # IntelliGrid AI — Energy Operations Dashboard Prototype
 
+[![Forks](https://img.shields.io/github/forks/MokuLakshithReddy/intelligrid-control?style=flat-square)](https://github.com/MokuLakshithReddy/intelligrid-control/forks) [![Open Issues](https://img.shields.io/github/issues/MokuLakshithReddy/intelligrid-control?style=flat-square)](https://github.com/MokuLakshithReddy/intelligrid-control/issues)
+
+
 A React and TypeScript dashboard prototype for exploring an industrial energy-management workflow. It brings energy-source status, demand and cost indicators, forecasts, scenario controls, carbon views, and an assistant-style interface into one navigable UI.
 
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=111)](https://react.dev/)
